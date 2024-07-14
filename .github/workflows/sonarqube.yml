@@ -46,7 +46,8 @@ jobs:
 
       - name: Check SonarQube connectivity
         run: |
-          nc -vz ${{ secrets.SONAR_HOST_URL }} 9000
+          echo ${{ secrets.SONAR_HOST_URL }}
+          nc -vz $(echo ${{ secrets.SONAR_HOST_URL }} | sed 's|http://||' | sed 's|https://||') 9000
     
       - name: Analyze with SonarQube
 
