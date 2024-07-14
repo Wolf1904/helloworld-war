@@ -41,6 +41,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check SonarQube connectivity
+        run: |
+          nc -vz ${{ secrets.SONAR_HOST_URL }} 9000
+    
       - name: Analyze with SonarQube
 
         # You can pin the exact commit or the version.
