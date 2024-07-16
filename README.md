@@ -47,3 +47,6 @@ or it won't be included in the war file when you build it).
 #### LICENSE
 Licensed under [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html).
 
+
+[![SonarQube analysis](https://github.com/Wolf1904/helloworld-war/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/Wolf1904/helloworld-war/actions/workflows/sonarqube.yml)
+
