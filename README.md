@@ -48,5 +48,7 @@ or it won't be included in the war file when you build it).
 Licensed under [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html).
 
 
-[![SonarQube analysis](https://github.com/Wolf1904/helloworld-war/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/Wolf1904/helloworld-war/actions/workflows/sonarqube.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Wolf1904_helloworld-war&metric=alert_status)](https://sonarcloud.io/dashboard?id=Wolf1904_helloworld-war)
+
+This badge represents the current code quality status as analyzed by SonarCloud. Click on the badge to view detailed analysis reports and metrics.
 
