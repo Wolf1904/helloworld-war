@@ -44,11 +44,14 @@ It uses the Google Guava helper library, which is a nice utility to have anyway.
 (If you want to call it from within your web app itself, move the library to lib/runtime
 or it won't be included in the war file when you build it).
 
-#### LICENSE
-Licensed under [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html).
-
+#### Quality Check
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Wolf1904_helloworld-war&metric=alert_status)](https://sonarcloud.io/dashboard?id=Wolf1904_helloworld-war)
 
 This badge represents the current code quality status as analyzed by SonarCloud. Click on the badge to view detailed analysis reports and metrics.
+
+#### LICENSE
+Licensed under [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html).
+
+
 
